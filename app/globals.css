@@ -42,3 +42,110 @@ textarea {
     linear-gradient(90deg, rgba(168, 216, 255, 0.1) 1px, transparent 1px);
   background-size: 42px 42px;
 }
+
+.flodesk-embed-shell {
+  width: 100%;
+}
+
+.flodesk-embed-shell [data-ff-el="root"].ff-6a7b76ee77f31bf126ca91fe {
+  width: 100%;
+  color: #1a1a1a;
+}
+
+.flodesk-embed-shell [data-ff-el="root"].ff-6a7b76ee77f31bf126ca91fe .ff-6a7b76ee77f31bf126ca91fe__container {
+  max-width: none;
+  overflow: visible;
+  background: transparent;
+}
+
+.flodesk-embed-shell [data-ff-el="root"].ff-6a7b76ee77f31bf126ca91fe .ff-6a7b76ee77f31bf126ca91fe__form {
+  padding: 0;
+  color: #1a1a1a;
+  font-family: inherit;
+  text-align: left;
+}
+
+.flodesk-embed-shell [data-ff-el="root"].ff-6a7b76ee77f31bf126ca91fe .ff-6a7b76ee77f31bf126ca91fe__title,
+.flodesk-embed-shell [data-ff-el="root"].ff-6a7b76ee77f31bf126ca91fe .ff-6a7b76ee77f31bf126ca91fe__subtitle {
+  display: none;
+}
+
+.flodesk-embed-shell [data-ff-el="root"].ff-6a7b76ee77f31bf126ca91fe .ff-6a7b76ee77f31bf126ca91fe__fields {
+  display: grid;
+  gap: 1.25rem;
+  margin: 0;
+}
+
+.flodesk-embed-shell [data-ff-el="root"].ff-6a7b76ee77f31bf126ca91fe .ff-6a7b76ee77f31bf126ca91fe__field {
+  margin: 0;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.flodesk-embed-shell [data-ff-el="root"].ff-6a7b76ee77f31bf126ca91fe .ff-6a7b76ee77f31bf126ca91fe__control {
+  height: 3.5rem;
+  border: 1px solid rgba(26, 26, 26, 0.1);
+  border-radius: 1rem;
+  background: #ffffff;
+  color: #1a1a1a;
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 1rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.flodesk-embed-shell [data-ff-el="root"].ff-6a7b76ee77f31bf126ca91fe .ff-6a7b76ee77f31bf126ca91fe__control:focus {
+  border-color: #ff4fa3;
+  box-shadow: 0 0 0 4px #ffe8f4;
+}
+
+.flodesk-embed-shell [data-ff-el="root"].ff-6a7b76ee77f31bf126ca91fe .ff-6a7b76ee77f31bf126ca91fe__label {
+  color: rgba(26, 26, 26, 0.46);
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: 1rem;
+}
+
+.flodesk-embed-shell [data-ff-el="root"].ff-6a7b76ee77f31bf126ca91fe .ff-6a7b76ee77f31bf126ca91fe__footer {
+  margin-top: 1.75rem;
+}
+
+.flodesk-embed-shell [data-ff-el="root"].ff-6a7b76ee77f31bf126ca91fe .ff-6a7b76ee77f31bf126ca91fe__button {
+  min-height: 3.5rem;
+  width: 100%;
+  border: 0;
+  border-radius: 9999px;
+  background: linear-gradient(90deg, #ff4fa3 0%, #ffe8f4 100%);
+  color: #1a1a1a;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.5rem;
+  padding: 1rem 1.75rem;
+  box-shadow: 0 24px 80px rgba(255, 79, 163, 0.13);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.flodesk-embed-shell [data-ff-el="root"].ff-6a7b76ee77f31bf126ca91fe .ff-6a7b76ee77f31bf126ca91fe__button:hover {
+  box-shadow: 0 0 36px rgba(168, 216, 255, 0.75);
+  transform: translateY(-1px);
+}
+
+.flodesk-embed-shell [data-ff-el="root"].ff-6a7b76ee77f31bf126ca91fe .ff-6a7b76ee77f31bf126ca91fe__success-message {
+  border-radius: 1.5rem;
+  background: linear-gradient(135deg, #edf8ff 0%, #ffffff 48%, #ffe8f4 100%);
+  color: #1a1a1a;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .flodesk-embed-shell [data-ff-el="root"].ff-6a7b76ee77f31bf126ca91fe .ff-6a7b76ee77f31bf126ca91fe__fields {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
