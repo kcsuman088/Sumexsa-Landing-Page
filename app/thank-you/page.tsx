@@ -55,12 +55,21 @@ export default function ThankYouPage() {
             <PlayCircle className="h-7 w-7 text-primary" aria-hidden="true" />
             <h2 className="text-2xl font-black text-darkText">Watch the Short Video Below (2-3 Minutes)</h2>
           </div>
-          <div className="mt-6 flex aspect-video items-center justify-center rounded-3xl bg-gradient-to-br from-lightPink via-white to-lightBlue text-center">
-            <div>
-              <PlayCircle className="mx-auto h-14 w-14 text-primary" aria-hidden="true" />
-              <p className="mt-3 text-sm font-extrabold text-darkText/70">Embed your video here.</p>
-            </div>
+          <div className="mt-6 overflow-hidden rounded-3xl bg-gradient-to-br from-lightPink via-white to-lightBlue shadow-sm">
+            <iframe
+              className="aspect-video w-full"
+              src="https://www.youtube.com/embed/e5XhyOoFYCM"
+              title="Free AI Marketing Consultation preparation video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            />
           </div>
+          <Link
+            href="https://youtube.com/shorts/e5XhyOoFYCM"
+            className="mt-4 inline-flex text-sm font-extrabold text-primary underline-offset-4 transition hover:text-darkText hover:underline"
+          >
+            Open video on YouTube
+          </Link>
           <div className="mt-6 text-left text-base leading-7 text-darkText/72">
             <p>In this video, I&apos;ll explain:</p>
             <ul className="mt-4 grid gap-3">
@@ -85,7 +94,7 @@ export default function ThankYouPage() {
             This helps us confirm your booking, share important updates, send your meeting details, and make sure you&apos;re fully prepared.
           </p>
           <Link
-            href="https://wa.me/9744254833"
+            href="https://wa.me/9747998822"
             className="mt-7 inline-flex min-h-14 w-full items-center justify-center gap-2 rounded-full bg-gradient-to-r from-primary to-lightPink px-7 py-4 text-center text-base font-extrabold text-darkText shadow-soft transition duration-300 hover:shadow-glow focus:outline-none focus:ring-4 focus:ring-softBlue/60"
           >
             <MessageCircle className="h-5 w-5" aria-hidden="true" />
